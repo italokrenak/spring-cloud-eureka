@@ -19,7 +19,7 @@ words: I,You,He,She,It
 ---
 spring:
   profiles: article
-    application: 
+  application: 
     name: lab-4-article
 words: a,the
 
