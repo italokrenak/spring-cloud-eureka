@@ -6,6 +6,8 @@ eureka:
 ---
 spring:
   profiles: subject
+  application: 
+    name: lab-4-subject
 words: I,You,He,She,It
 
 #Utilzando o arquivo com profile (lab-verb.yml)
@@ -17,14 +19,20 @@ words: I,You,He,She,It
 ---
 spring:
   profiles: article
+    application: 
+    name: lab-4-article
 words: a,the
 
 ---
 spring:
   profiles: adjective
+  application: 
+    name: lab-4-adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+  application: 
+    name: lab-4-noun
 words: boat,book,vote,seat,backpack,partition,groundhog 
