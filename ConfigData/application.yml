@@ -8,6 +8,8 @@ spring:
   profiles: subject
   application: 
     name: lab-4-subject
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 words: I,You,He,She,It
 
 #Utilzando o arquivo com profile (lab-verb.yml)
@@ -21,6 +23,8 @@ spring:
   profiles: article
   application: 
     name: lab-4-article
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 words: a,the
 
 ---
@@ -28,6 +32,8 @@ spring:
   profiles: adjective
   application: 
     name: lab-4-adjective
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
@@ -35,4 +41,6 @@ spring:
   profiles: noun
   application: 
     name: lab-4-noun
+server:
+  port: ${PORT:${SERVER_PORT:0}}
 words: boat,book,vote,seat,backpack,partition,groundhog 
