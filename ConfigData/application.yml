@@ -17,6 +17,14 @@ words: I,You,He,She,It
 #spring:
 #  profiles: verb
 #words: ran,knew,had,saw,bought
+---
+spring:
+  profiles: verb
+  application:
+    name: lab-4-verb
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+words: ran,knew,had,saw,bought
 
 ---
 spring:
