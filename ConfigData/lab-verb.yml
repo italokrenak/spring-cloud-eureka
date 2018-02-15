@@ -1,6 +1,5 @@
 spring:
-  cloud:
-    application:
-      name: lab-4-verb
+  application:
+    name: lab-4-verb
 words: ran,knew,had,saw,bought
 
