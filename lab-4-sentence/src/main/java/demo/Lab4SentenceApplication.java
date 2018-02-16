@@ -17,7 +17,7 @@ public class Lab4SentenceApplication {
 
 	@Bean @LoadBalanced
 	public RestTemplate restTemplate() {
-		return restTemplate();
+		return new RestTemplate();
 	}
 	
 }
