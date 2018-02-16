@@ -51,4 +51,13 @@ spring:
     name: lab-4-noun
 server:
   port: ${PORT:${SERVER_PORT:0}}
-words: boat,book,vote,seat,backpack,partition,groundhog 
+words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
+spring:
+  profiles: cold-noun
+  application: 
+    name: lab-4-noun
+server:
+  port: ${PORT:${SERVER_PORT:0}}
+words: icicle,refrigerator,blizzard,snowball
