@@ -7,7 +7,7 @@ eureka:
 spring:
   profiles: subject
   application: 
-    name: lab-4-subject
+    name: subject
 server:
   port: ${PORT:${SERVER_PORT:0}}
 words: I,You,He,She,It
@@ -21,7 +21,7 @@ words: I,You,He,She,It
 spring:
   profiles: verb
   application:
-    name: lab-4-verb
+    name: verb
 server:
   port: ${PORT:${SERVER_PORT:0}}
 words: ran,knew,had,saw,bought
@@ -30,7 +30,7 @@ words: ran,knew,had,saw,bought
 spring:
   profiles: article
   application: 
-    name: lab-4-article
+    name: article
 server:
   port: ${PORT:${SERVER_PORT:0}}
 words: a,the
@@ -39,7 +39,7 @@ words: a,the
 spring:
   profiles: adjective
   application: 
-    name: lab-4-adjective
+    name: adjective
 server:
   port: ${PORT:${SERVER_PORT:0}}
 words: reasonable,leaky,suspicious,ordinary,unlikely
@@ -48,7 +48,7 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: noun
   application: 
-    name: lab-4-noun
+    name: noun
 server:
   port: ${PORT:${SERVER_PORT:0}}
 words: boat,book,vote,seat,backpack,partition,groundhog
@@ -57,7 +57,7 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 spring:
   profiles: cold-noun
   application: 
-    name: lab-4-noun
+    name: noun
 server:
   port: ${PORT:${SERVER_PORT:0}}
 words: icicle,refrigerator,blizzard,snowball
